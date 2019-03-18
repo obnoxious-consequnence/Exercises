@@ -1,0 +1,22 @@
+job =  [
+    "Programmer", 
+    "Chef",
+    "Web Developer",
+    "Web Designer",
+    "Fullstack JavaScript Developer",
+    "Uber Driver",
+    "Taxi Driver",
+    "Police Officer",
+    "Resturant Manager",
+    "Retail",
+    "Designer",
+    "Wedding Planner",
+    "Docter",
+    "Nurse",
+    "Priest",
+    "Factory Worker",
+    "Youtuber",
+    "Blogger",
+    "Director",
+    "Journalist"
+]
