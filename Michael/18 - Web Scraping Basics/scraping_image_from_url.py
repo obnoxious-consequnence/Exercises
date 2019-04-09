@@ -22,5 +22,5 @@ if __name__ == '__main__':
             req.urlretrieve(l, out_folder + str(count) + '.PNG' )
             
             
-    links = collect_img_links('https://www.google.dk/search?site=&tbm=isch&source=hp&biw=1163&bih=812&q=minions&oq=minions')
+    links = collect_img_links('https://www.google.com/search?q=jeep&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi68K_i5cLhAhXHShUIHc4dBIQQ_AUIDigB&biw=1536&bih=722')
     download_imgs(links)
