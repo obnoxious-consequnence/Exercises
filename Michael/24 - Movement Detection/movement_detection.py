@@ -23,17 +23,14 @@ import time
 import numpy as np
 from docopt import docopt
 
-
-
 first_frame = None
 text = 'Nothing to see...'
-
 
 def get_video_input(movie_file):
     if movie_file is None:
         cap = cv2.VideoCapture(0)
         time.sleep(0.25)
- 
+
     # otherwise, we are reading from a video file
     else:
         cap = cv2.VideoCapture(movie_file)  
