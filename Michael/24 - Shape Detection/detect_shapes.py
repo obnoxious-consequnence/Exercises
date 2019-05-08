@@ -30,7 +30,7 @@ sd = ShapeDetector()
 # loop over the contours
 for c in cnts:
 	# compute the center of the contour, then detect the name of the
-	# shape using only the contour
+	# shape using only the contourth
 	M = cv2.moments(c)
 	cX = int((M["m10"] / M["m00"]) * ratio)
 	cY = int((M["m01"] / M["m00"]) * ratio)

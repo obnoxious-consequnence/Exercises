@@ -21,6 +21,6 @@ if __name__ == '__main__':
             count += 1
             req.urlretrieve(l, out_folder + str(count) + '.PNG' )
             
-            
-    links = collect_img_links('https://www.google.com/search?q=jeep&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi68K_i5cLhAhXHShUIHc4dBIQQ_AUIDigB&biw=1536&bih=722')
+    # https://www.google.com/search?q=jeep&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi68K_i5cLhAhXHShUIHc4dBIQQ_AUIDigB&biw=1536&bih=722
+    links = collect_img_links('https://photos.google.com/share/AF1QipOiIqa7GjEMcVSP4XcKGmukK0XUsRIt3aX9eUfrGFbcKXkCZANMDUnoWz2LdScixw/photo/AF1QipOqk9E6wh_ekfRR6bwFRzbDReTrhKPyC7x4ORmi?key=UnRmMzA3aUJhbHhzbGJoNFZ4QWJqQ0VLM2pSX19B')
     download_imgs(links)
